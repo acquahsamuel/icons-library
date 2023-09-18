@@ -1,0 +1,21 @@
+{
+  "name": "icons-library",
+  "version": "1.0.0",
+  "description": "A full fledged professional  icons library",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "start:prod": "NODE_ENV=production nodemon server",
+    "start:dev": "nodemon server"
+  },
+  "keywords": [
+    "icons",
+    "library",
+    "open-source"
+  ],
+  "author": "Samuel Acquah",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
